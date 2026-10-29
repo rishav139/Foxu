@@ -284,6 +284,9 @@ main { max-width: 1200px; margin: 0 auto; padding-left: 16px; padding-right: 16p
 .about h2 { font-size: clamp(38px, 5vw, 52px); margin-bottom: 18px; }
 .about p:last-child { font-size: 19px; line-height: 1.6; color: var(--muted); }
 
+.feedback { text-align: center; font-size: 18px; font-weight: 700; padding-bottom: 56px; }
+.feedback a { text-decoration: underline; text-decoration-thickness: 3px; text-underline-offset: 5px; }
+
 /* Footer */
 .site-footer {
   background: var(--ink);
